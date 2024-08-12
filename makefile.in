@@ -1,0 +1,6 @@
+ECCF += -Wl,-static
+ECCF += -fdata-sections
+ECCF += -ffunction-sections
+ECCF += -Wl,-gc-sections
+XCCF += -Os
+XADF += -c 
